@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rating"
+            android:id="@+id/rating"
+            android:layout_below="@+id/ratingBar"
+            android:layout_alignLeft="@+id/ratingBar"
+            android:layout_alignStart="@+id/ratingBar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Rating"
+            android:id="@+id/btnHome"
+            android:layout_below="@+id/rating"
+            android:layout_alignLeft="@+id/rating"
+            android:layout_alignStart="@+id/rating"
+            android:onClick="changeRating"/>
+    </RelativeLayout>
+
+</LinearLayout>

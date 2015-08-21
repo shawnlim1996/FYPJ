@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swipe cards</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_feedback">feedback</string>
+    <string name="title_activity_feedback_test">FeedbackTest</string>
+    <string name="title_activity_feedback_button">FeedbackButton</string>
+    <string name="title_activity_feedback_buttons">FeedbackButtons</string>
+
+</resources>
